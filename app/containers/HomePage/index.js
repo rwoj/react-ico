@@ -12,13 +12,13 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
 import messages from './messages';
-import Sidebar from '../Sidebar';
+import Sidebar from '../../components/Sidebar';
 
 export default class HomePage extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
   render() {
     return (
       <div>
-        <Sidebar />
+        <Sidebar>sidebar</Sidebar>
       </div>
     );
   }
